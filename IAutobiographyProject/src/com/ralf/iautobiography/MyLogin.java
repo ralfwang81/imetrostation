@@ -16,7 +16,7 @@ public class MyLogin {
 	@ResponseBody
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login(HttpServletRequest request,HttpServletResponse response) {
-		return "hello";
+		return "hello world";
 	}
 	
 	public static void main(String[] args) {
